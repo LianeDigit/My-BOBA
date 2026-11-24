@@ -2,7 +2,9 @@ img {
     width: 350px;
     max-width: 100%;
 }
-
+footer{
+    background-color: rgb(166, 158, 218);
+}
 body {
     
     text-align: center;
@@ -31,8 +33,24 @@ ul li a {
 ul li a:hover {
     background-color:rgb(13, 23, 70);
 }
-.mask1 {
-    mask-position: center;
-    mask-repeat: no-repeat;
-    mask-image: url(https://imgs.search.brave.com/jd0Yrsx95SjehqpndlnxJG_TjrxF64E5tCmfCZ_-xSg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzkwLzUzLzQ4/LzM2MF9GXzkwNTM0/ODI0X2pjeWUzcXNX/RXBJOHd0SHRycG5B/cll5ZFZRSUl6SDBZ/LmpwZw);
+.container {
+    text-align: left;
+    display:grid;
+    justify-content: center;
+    grid-template-areas: "pro con";
+}
+.container div {
+    margin: 15px;
+    padding: 25px;
+    font-size: 100%;
+}
+
+.container1 {
+    justify-content: center;
+    display:flex;
+
+}
+.container1 div {
+    margin:auto;
+    padding:0px;
 }
